@@ -114,6 +114,7 @@ html, body{
 	padding: 1em;
 	display: flex;
 	align-items: center;
+	color: black;
 }
 .top-song .so-tt{
 	flex-grow: 1;
@@ -128,10 +129,48 @@ html, body{
 	margin-left: 1em;
 }
 .top-song .infor .spec-infor p{
-	margin-left: 1em;
+	
 	padding: 0;
+	margin:0;
 }
 .top-song .phan-tram{
 	flex-grow: 1;
+}
+
+.top-song:hover{
+	background-color: black;
+	opacity: 0.2;
+}
+/**/
+
+/**/
+.bang-bieu-do{
+	display: flex;
+	background-image: url('https://loremflickr.com/1920/1080');
+	width: 100%;
+	background-size: cover;
+	align-items: center;
+}
+
+.bang-bieu-do .zing-char{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	position: relative;
+}
+.zing-char-1{
+	flex-grow: 1;
+}
+.zing-char-2{
+	margin-left: 1em;
+	display: flex;
+	color: white;
+	align-items: center;
+	flex-grow: 4;
+}
+.zing-char-3{
+	flex-grow: 1;
+	position: absolute;
+	right: 0;
 }
 /**/
