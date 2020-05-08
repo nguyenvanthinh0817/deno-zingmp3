@@ -1,5 +1,12 @@
 
+html, body{
+	width: 100%;
+	height: 100%;
 
+}
+.navbar{
+	
+}
 .carousel-inner img{
 	width: 100%;
 }
@@ -11,16 +18,20 @@
 .profile p{
 	font-size: 1em;
 	color: #7c7c7d;
+	margin: 0;
+	padding-right: 15px: 
 }
 
 .profile .name{
 	font-weight: bold;
 	color: black;
+	margin:0;
 }
 .infor{
-	padding: 1em;
+	padding-left: 1em;
 }
 .avarta{
+	display: none;
 	width: 50px;
 	height: 50px;
 	background-image: url('https://loremflickr.com/1920/1080');
@@ -28,3 +39,7 @@
 	background-size: cover;
 }
 
+/**/
+
+
+/**/
