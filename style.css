@@ -107,3 +107,31 @@ html, body{
 }
 
 /**/
+
+
+/* cac bai hat xep hang*/
+.top-song{
+	padding: 1em;
+	display: flex;
+	align-items: center;
+}
+.top-song .so-tt{
+	flex-grow: 1;
+}
+
+.top-song .infor{
+	display: flex;
+	flex-grow: 5;
+
+}
+.top-song .infor .spec-infor{
+	margin-left: 1em;
+}
+.top-song .infor .spec-infor p{
+	margin-left: 1em;
+	padding: 0;
+}
+.top-song .phan-tram{
+	flex-grow: 1;
+}
+/**/
