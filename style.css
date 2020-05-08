@@ -77,3 +77,33 @@ html, body{
 }
 
 /**/
+.card{
+	position: relative;
+}
+.card .overlay{
+	height: 100%;
+	background-color: rgba(0, 0, 0,0.6);
+	position: absolute;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	opacity: 0;
+	transition: all 0.3s;
+}
+.card:hover .overlay{
+	opacity: 1;
+}
+
+.card:hover .fa-play-circle{
+	font-size: 3em;
+}
+.fa-play-circle{
+	font-size: 0em;
+	color: white;
+	transition: all 0.3s;
+	
+	
+}
+
+/**/
