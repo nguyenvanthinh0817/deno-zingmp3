@@ -111,10 +111,13 @@ html, body{
 
 /* cac bai hat xep hang*/
 .top-song{
-	padding: 1em;
+	margin-bottom: 1em;
+	padding-bottom: 1em;
+	border-bottom: 1px solid #dfdfdf;
 	display: flex;
+
 	align-items: center;
-	color: black;
+	color: white;
 }
 .top-song .so-tt{
 	flex-grow: 1;
@@ -138,8 +141,7 @@ html, body{
 }
 
 .top-song:hover{
-	background-color: black;
-	opacity: 0.2;
+	color: black;
 }
 /**/
 
@@ -149,7 +151,7 @@ html, body{
 	background-image: url('https://loremflickr.com/1920/1080');
 	width: 100%;
 	background-size: cover;
-	align-items: center;
+	
 }
 
 .bang-bieu-do .zing-char{
@@ -174,3 +176,4 @@ html, body{
 	right: 0;
 }
 /**/
+
