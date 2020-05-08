@@ -40,6 +40,40 @@ html, body{
 }
 
 /**/
+.slide{
+	position: relative;
+}
+.slide .slide-chil{
+	height: 20%;
+	width: 40%;
+	background-color: red;
+	position: absolute;
+	z-index: 1;
+	bottom: 0;
+	right: 0;
+	transition: all 0.5s;
+	transform: scale(0);
+	
+	
+}
 
+.slide:hover .slide-chil{
+	
+	transform: scale(1);
+	background-color: red;
+	position: absolute;
+	z-index: 1;
+	bottom: 0;
+	right: 0;
+	
+}
+
+
+.component-3-bg{
+	background-image: url('https://loremflickr.com/500/500');
+	width: 100%;
+	background-position: center;
+	background-size: cover;
+}
 
 /**/
